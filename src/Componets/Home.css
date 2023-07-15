@@ -1,0 +1,76 @@
+.image-container {
+    position: fixed;
+  
+  }
+  
+  .image1 {
+    margin-top: 1%;
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .user-section {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    height: 80%;
+    padding-top: 5%;
+   
+  }
+  
+  .dropdown-menu1 {
+   
+    position: absolute;
+    height: 80%;
+    left: 58%; /* Center horizontally */
+    transform: translate(-70%, -80%); /* Adjust for centering */
+    z-index: 999;
+    list-style-type: none;
+
+    width: 40%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+   
+  }
+  
+  .drop-container {
+    max-height: 80%; /* Adjust the maximum height based on the screen size */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-radius: 2%;
+    padding-right: 10px; /* Add some padding to prevent content from overlapping with the scrollbar */
+  }
+  
+  #drop_section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #drop-id {
+    margin-bottom: 8%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: #171515c4;
+  }
+  
+  #drop_section img {
+    width: 40px; /* Adjust the size of the profile picture */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  #drop_section p {
+    margin-bottom: 5%;
+    cursor: pointer;
+  }

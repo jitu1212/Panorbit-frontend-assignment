@@ -1,0 +1,175 @@
+#container-main{
+    width: 100%;
+    display: flex;
+
+}
+#container-1{
+    margin-top: 2%;
+    width: 20%;
+    background-color: #4550c8;
+    border-radius: 24px;
+}
+#container-1-container{
+   margin-top: 90%;
+   margin-bottom: 50%;
+    display: flex;
+   margin-left: 10%;
+   margin-right: 10%;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff76;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+}
+#container-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}  
+#container-2-header{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+   
+   
+
+}
+#profile-header-container{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.profile-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%;
+  }
+#profile-header-container>p{
+    margin-left: 5px;
+    margin-top: 5px;
+}  
+#profile-details-container{
+    margin-top: 5%;
+    display: flex;
+}
+  
+#profile-details-information-container{
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture1 {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Adjust the size as needed */
+    border-radius: 50%;
+  }
+#profile-details-information-container>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+}  
+#basic-details{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    
+
+}
+#basic-details >p>span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    color: #9a9a9a;
+}
+#profile-details-info-horizontal-line{
+    width: 2px;
+    background-color: #9a9a9a;
+    
+}
+#info-address-map-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+#lat-lng-container{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    color: #9a9a9a;
+}
+
+.dropdown-menu{
+    max-height: 240px;
+    overflow-y: scroll;
+}
+.drop-info{
+    display: flex;
+    gap:1%;
+    margin-top: 1%;
+    text-align: center;
+    align-items: center;
+}
+
+#message-drop-container{
+  
+}
+.btn-group, .btn-group-vertical {
+    width: 320px;
+    margin-left: 60%;
+  
+}
+.drop-info >p{
+    margin-top: 4%;
+}
+#drop-container-button{
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: x-large;
+
+}  
+
+.modal-dialog-centered.modal-lg {
+    width: 20%; /* Adjust the width as desired */
+    top: 0;
+    margin-left: 56%;
+    padding-top: 37%;
+    bottom: 0;
+    left: 10px; /* Adjust the left position as desired */
+    transform: none !important;
+  }
+.modal-title{
+    display: flex;
+}  
+
+.container-hover:hover{
+    padding: 12px 8px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+#blackpage-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #d4cfcf;
+    
+
+}
